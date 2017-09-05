@@ -1,0 +1,129 @@
+/*
+Theme Name: Skillcrush Starter Theme Child
+Author: Zoe Djukic
+Author URI: http://zoedjukic.com
+Description: Zoe Djukic web developer
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: skillcrushstarter-child
+*/
+@import url("../skillcrushstarter/style.css");
+
+body {
+	background: #fff;
+	border-top: 6px solid #adad85;
+	color: #3b3b3b;
+	font: 17px/1.65 'OpenSans', Arial, sans-serif;
+	letter-spacing: -0.01em;
+}
+
+.entry-title a:hover {
+	color: #adad85;
+}
+
+.entry-time {
+	color: #adad85;
+	font-weight: 600;
+	font-size: 0.82em;
+}
+.entry-summary a {
+	color: #adad85;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.post-entry .read-more span {
+    color: #adad85; }
+
+.post-entry .read-more:hover {
+	border-bottom: 1px solid #adad85;
+}
+#navigation .right a {
+	color: #adad85;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.comments-area .comment-reply-title {
+	color: #45ac9d;
+	font: bold 1.176em 'Montserrat', 'OpenSans', Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 2em 0 1em;
+}
+.comments-area .comment-reply-title a {
+	color: #adad85;
+}
+.comments-area .comment-form p a {
+	color: #adad85;
+;
+}
+.comments-area .comment-form input[type="submit"] {
+	background: #adad85;
+}
+
+/* Homepage */
+.home {
+	background: url(img/zoe-djukic-photo.jpg) no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+.home .page-header {
+	display: none;
+}
+.home .main-content {
+	width: 100%;
+	float: none;
+	overflow: hidden;
+}
+.home .content {
+	width: 550px;
+	background: #ffffff;
+	float: left;
+	padding: 50px;
+}
+.home .content h1 {
+	font: 700 36px 'Montserrat';
+	margin-bottom: 30px;
+}
+.home .content p {
+	font: 17px/1.9 'OpenSans', Arial, sans-serif;
+	margin-bottom: 24px;
+}
+.home .content p a {
+	font-weight: 700;
+	text-decoration: underline;
+	color: #3b3b3b;
+}
+.home .content .social-btns {
+	margin-bottom: 30px;
+}
+.home .content .social-btns a {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	margin-right: 5px;
+}
+.home .content .soc-icon.tw {
+	background: url(img/twitter-icon.png) no-repeat center 0;
+}
+.home .content .soc-icon.fb {
+	background: url(img/facebook-icon.png) no-repeat center 0;
+}
+.home .content .soc-icon.ln {
+	background: url(img/linkedin-icon.png) no-repeat center 0;
+}
+.home .content .soc-icon.db {
+	background: url(img/dribbble-icon.png) no-repeat center 0;
+}
+.home .btn {
+	background: #adad85;
+	color: #fff;
+	font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
+	display: inline-block;
+	height: 55px;
+	min-width: 250px;
+	width: 100%;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
