@@ -15,16 +15,16 @@ get_header(); ?>
 			<?php while ( have_posts() ): the_post(); ?>
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
-            <div class="social-btns">
-    <a href="https://twitter.com/zndjukic" class="soc-icon tw"></a>
-    <a href="https://www.facebook.com/3FUN.FELT/" class="soc-icon fb"></a>
-    <a href="" class="soc-icon ln"></a>
-    <a href="" class="soc-icon db"></a>
-</div>
+            
 
-				<a href="<?php echo site_url('/blog/'); ?>" class="btn">View My Blog</a>
+				<a href="<?php echo site_url('/about/'); ?>" class="btn">Welcome to my website</a>
 			<?php endwhile; ?>
 		</div>
+        
+        
+            
+    </div>
+    
 	</div>
 </section>
 
