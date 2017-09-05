@@ -1,0 +1,210 @@
+/***** BASE STYLES *****/
+html {
+  min-width: 1200px;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header{
+    height: 800px;
+	background: url('../img/full-background.png');
+    background-size: cover;
+	background-position: bottom;
+}
+
+header h1 { 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	color:  #000000;
+    text-transform: uppercase;
+	padding-left: 50px 0;
+}
+
+header h2 {
+    width: 700px;
+    clear: both;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #ffffff;
+    padding: 20px, 0;
+}
+
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+header h2 span { 
+	color: #ffffff;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 100px, 0;
+}
+
+#about h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	color: #262a2b;
+	padding-top: 125px;
+}
+
+#about p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 42px;
+	padding-right: 50px;
+	padding-bottom: 140px;
+}
+
+/***** WORK *****/
+#work {
+  background-color: #adad85;
+  text-align: center;
+	margin-top: 400px;
+	padding-bottom: 450px;
+	padding-top: 150px;
+}
+
+#work .full-width {	
+} 
+
+#work img {
+	height: 85px;
+    width: 85px;
+	padding-left: 150px;
+	
+}
+	
+#work h3 {
+	font-size: 24px;
+	color:#ffffff;
+	width: 190px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#work p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 0 35px;
+	text-align: center;
+}
+
+
+/***** CONTACT *****/
+	
+
+
+#contact .full-width {
+	padding: 110px 0;
+}
+#contact {
+	background-color: #ebebeb;
+	padding-bottom: 400px;
+}
+
+#contact-img {
+	border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+			
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+	font-size: 36px;
+	color: #262a2b;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contact #email-header{
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 32px;
+    font-weight: normal;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 40px 0 0px 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+	margin-left: -40px;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
+#contact-info {
+	text-align: left;
+	margin: 0 -100px 0 100px;
+}
+ 
+
+
+
+
+
